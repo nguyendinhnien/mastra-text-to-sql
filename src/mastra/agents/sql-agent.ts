@@ -6,7 +6,7 @@ import { executeSql } from '../tools/execute-sql';
 export const sqlAgent = new Agent({
   id: 'sql-agent',
   name: 'SQL Agent',
-  model: 'claude-haiku-4-5-20251001',
+  model: 'anthropic/claude-haiku-4-5-20251001',
   instructions: `You are a SQL assistant that helps users query a local SQLite database using natural language.
 
 ## Tools
